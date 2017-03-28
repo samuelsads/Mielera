@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/depositar"
+        android:title="Depositar pago"/>
+    <item
+        android:id="@+id/Ver_Pagos"
+        android:title="Ver Pagos"/>
+
+</menu>

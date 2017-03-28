@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/editar"
+        android:title="Editar"/>
+    <item
+        android:id="@+id/eliminar"
+        android:title="Eliminar"/>
+    <item
+        android:id="@+id/NuevoPedido"
+        android:title="Agregar nuevo pedido"/>
+    <item
+        android:id="@+id/VerPedidos"
+        android:title="Ver Pedidos pendientes"/>
+    <item
+        android:id="@+id/VerPedidosPagados"
+        android:title="Ver Pedidos Pagados"/>
+    <item
+        android:id="@+id/VerPediditosTotales"
+        android:title="Ver Historial de pedidos"/>
+</menu>

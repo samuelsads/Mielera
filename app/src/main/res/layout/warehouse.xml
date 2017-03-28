@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="1dp"
+    android:id="@+id/card">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ListIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignBottom="@+id/ListNombre" />
+        <TextView
+            android:id="@+id/ListText"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="right"
+            android:text="FECHA:"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_toEndOf="@+id/ListIcon" />
+        <TextView
+            android:id="@+id/ListFecha"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:text="Fecha"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/ListText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:text="TOTAL EN BODEGA:"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/ListText"
+            android:layout_toEndOf="@+id/ListIcon"
+            android:layout_above="@+id/textView14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:text="Medium Text"
+            android:id="@+id/List_Quantity_Payment"
+            android:layout_below="@+id/ListText"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/ListNombre"
+            android:layout_alignStart="@+id/ListFecha" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:text="TAMAÑO: "
+            android:id="@+id/textView14"
+            android:layout_below="@+id/List_Quantity_Payment"
+            android:layout_above="@+id/ListNombre"
+            android:layout_toStartOf="@+id/List_Quantity_received" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:text="Large Text"
+            android:id="@+id/List_Quantity_received"
+            android:layout_below="@+id/List_Quantity_Payment"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView13"
+            android:layout_above="@+id/ListNombre" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
